@@ -20,31 +20,24 @@ public class ImmutableLiveStream {
         this.startDate = startDate;
         this.endDate = endDate;
     }
-
     public String getId() {
         return id;
     }
-
     public String getTitle() {
         return title;
     }
-
     public String getDescription() {
         return description;
     }
-
     public String getUrl() {
         return url;
     }
-
     public LocalDateTime getStartDate() {
         return startDate;
     }
-
     public LocalDateTime getEndDate() {
         return endDate;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
